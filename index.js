@@ -31,7 +31,7 @@ restService.post("/audio", function(req, res) {
   var speech = "";
   switch (req.body.result.parameters.AudioSample.toLowerCase()) {
     //Speech Synthesis Markup Language 
-    case "music one":
+    case "trip":
       speech =
         '<speak><audio src="https://doc-08-24-docs.googleusercontent.com/docs/securesc/kod2ci50sv7m30k0j7sehc4ul9g30bh5/6fq60js9dbcu4680qgsqb7kftvvhp81o/1526284800000/10068960411337181852/10068960411337181852/1EyAKshVguugdhN5GF3dvhb3d8L01jZPk?e=view">did not get your audio file</audio></speak>';
       break;
